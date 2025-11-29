@@ -1,0 +1,12 @@
+{
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/auth/expo-web-success/route": "app/api/auth/expo-web-success/route.js",
+  "/api/auth/token/route": "app/api/auth/token/route.js",
+  "/carnatic-masters/page": "app/carnatic-masters/page.js",
+  "/instruments/page": "app/instruments/page.js",
+  "/learn/page": "app/learn/page.js",
+  "/meditation/page": "app/meditation/page.js",
+  "/page": "app/page.js",
+  "/raga-explorer/page": "app/raga-explorer/page.js"
+}

@@ -1,0 +1,38 @@
+{
+  "name": "swarajnana",
+  "version": "1.0.0",
+  "description": "Swarajnana – Discovering Knowledge Through Indian Music",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [
+    "nextjs",
+    "react",
+    "indian-music",
+    "education",
+    "visualization"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@auth/core": "^0.34.3",
+    "@netlify/plugin-nextjs": "^5.15.1",
+    "@tanstack/react-query": "^5.62.7",
+    "framer-motion": "^11.0.0",
+    "lucide-react": "^0.441.0",
+    "next": "^16.0.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.13.0",
+    "eslint-config-next": "^16.0.1",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.14"
+  }
+}

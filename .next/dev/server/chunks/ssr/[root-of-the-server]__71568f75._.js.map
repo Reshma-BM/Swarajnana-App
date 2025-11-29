@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///D:/Swarajnana/web/app/Providers.jsx"],"sourcesContent":["\"use client\";\r\n\r\nimport { QueryClient, QueryClientProvider } from \"@tanstack/react-query\";\r\nimport { useState } from \"react\";\r\n\r\nexport default function Providers({ children }) {\r\n  const [queryClient] = useState(() => new QueryClient());\r\n\r\n  return <QueryClientProvider client={queryClient}>{children}</QueryClientProvider>;\r\n}\r\n"],"names":[],"mappings":";;;;;AAEA;AAAA;AACA;AAHA;;;;AAKe,SAAS,UAAU,EAAE,QAAQ,EAAE;IAC5C,MAAM,CAAC,YAAY,GAAG,IAAA,iNAAQ,EAAC,IAAM,IAAI,4LAAW;IAEpD,qBAAO,8OAAC,6MAAmB;QAAC,QAAQ;kBAAc;;;;;;AACpD","debugId":null}}]
+}
